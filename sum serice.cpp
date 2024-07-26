@@ -19,9 +19,8 @@ int main()
 
     // Calculate the sum of the series
     for (int i = 1; i <= n; i++) 
-    {
-        sum += 1.0 / i; // Add the reciprocal of i to the sum
-    }
+         sum += 1.0 / i; // Add the reciprocal of i to the sum
+ 
 
     // Output the result
     std::cout << "The sum of the series is: " << sum << std::endl;

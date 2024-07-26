@@ -20,5 +20,9 @@ int add(ClassA a,ClassB b){
  return a.valueA + b.valueB;
 }
 int main(){
-    
+
+   ClassA objextA(10);
+   ClassB objectB(20) ;
+   cout << "the friet function sum" <<add(objextA,objectB)<<endl;
+   return 0;
 }
